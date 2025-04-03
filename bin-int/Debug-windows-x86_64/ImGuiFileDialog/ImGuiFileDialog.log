@@ -1,0 +1,6 @@
+﻿  CustomFont.cpp
+  ImGuiFileDialog.cpp
+  main.cpp
+E:\project\c++\YoloDetector\YoloDetector\vendor\imguiFileDialog\main.cpp(552,54): error C2065: “IMGUIFILEDIALOG_VERSION”: 未声明的标识符
+E:\project\c++\YoloDetector\YoloDetector\vendor\imguiFileDialog\main.cpp(613,167): error C2065: “ImGuiFileDialogFlags_CaseInsensitiveExtention”: 未声明的标识符
+  正在生成代码...
