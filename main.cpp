@@ -549,7 +549,7 @@ int main(int, char**) {
         // 2. Show a simple window that we create ourselves. We use a Begin/End pair to created a named window.
         ImGui::Begin("ImGuiFileDialog Demo");  // Create a window called "Hello, world!" and append into it.
         {
-            ImGui::Text("ImGuiFileDialog Demo : %s", IMGUIFILEDIALOG_VERSION);
+            ImGui::Text("ImGuiFileDialog Demo : %s", "ver0.1");
             ImGui::Text("FileSystem Interface : %s", fileManager.GetFileSystemName().c_str());
 
             ImGui::Separator();
@@ -610,7 +610,7 @@ int main(int, char**) {
                     ImGui::SameLine();
                     RadioButtonLabeled_BitWize<ImGuiFileDialogFlags>("Hide Column Date", "Hide Column file Date by default", &flags, ImGuiFileDialogFlags_HideColumnDate);
 
-                    RadioButtonLabeled_BitWize<ImGuiFileDialogFlags>("Case Insensitive Extentions", "will not take into account the case of file extentions", &flags, ImGuiFileDialogFlags_CaseInsensitiveExtention);
+                    // RadioButtonLabeled_BitWize<ImGuiFileDialogFlags>("Case Insensitive Extentions", "will not take into account the case of file extentions", &flags, ImGuiFileDialogFlags_CaseInsensitiveExtention);
 
                     ImGui::SameLine();
                     RadioButtonLabeled_BitWize<ImGuiFileDialogFlags>("Disable quick path selection", "Disable the quick path selection", &flags, ImGuiFileDialogFlags_DisableQuickPathSelection);
